@@ -27,21 +27,21 @@ It's Windows Remote Administration Tool who work via Telegram Bot.
 
 
 # functional
-/screen - screenshot
-/info - info about user
-/location - location on a map
-/kill_process - kill the process (process.exe)
-/reboot - reboot pc
-/shutdown - shutdown pc
-/pwd - know current directory
-/passwords_chrome - chrome passwords 
-/passwords_opera - opera passwords
-/cockies_chrome - chrome cockies
-/cockies_opera - opera cockies
-/get_discord - get token of Discord session
-/cmd command - execute command in CMD
-/open_url - open link
-/ls - all files and folders in directory
-/cd - move to folder
-/download - download file
-/rm_dir - delete folder
+- /screen - screenshot
+- /info - info about user
+- /location - location on a map
+- /kill_process - kill the process (process.exe)
+- /reboot - reboot pc
+- /shutdown - shutdown pc
+- /pwd - know current directory
+- /passwords_chrome - chrome passwords 
+- /passwords_opera - opera passwords
+- /cockies_chrome - chrome cockies
+- /cockies_opera - opera cockies
+- /get_discord - get token of Discord session
+- /cmd command - execute command in CMD
+- /open_url - open link
+- /ls - all files and folders in directory
+- /cd - move to folder
+- /download - download file
+- /rm_dir - delete folder
