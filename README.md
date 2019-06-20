@@ -25,8 +25,6 @@ It's Windows Remote Administration Tool who work via Telegram Bot.
 - in current directory where is RAT.py will be created several folders
 - in folder dist will be your RAT.exe
 
-https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=2ahUKEwi8hsugwPjiAhXBmIsKHZ02DD0QjRx6BAgBEAU&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dd-84UJpYFRM&psig=AOvVaw0SFX_dEIcVagpZ_MGQ2MEK&ust=1561135274640536
-
 # functional
 - /screen - screenshot
 - /info - info about user
