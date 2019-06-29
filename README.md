@@ -1,6 +1,6 @@
 # RAT-via-Telegram-Bot
 
-[![](http://img.youtube.com/vi/56VxwpOZkOM/0.jpg)](http://www.youtube.com/watch?v=56VxwpOZkOM "")
+[![link to youtube video](http://img.youtube.com/vi/56VxwpOZkOM/0.jpg)](http://www.youtube.com/watch?v=56VxwpOZkOM "link to youtube video")
 
 # What is it?
 It's Windows Remote Administration Tool who work via Telegram Bot.
